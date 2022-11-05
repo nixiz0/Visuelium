@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./ressources-web/icon_logo.png">
     <title> Visuelium </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
 
     <div class="presentation">
         <div>
-            <h4 id="who" class="who"> QUI SOMMES-NOUS ? </h4>
+            <h4 id="who" class="who"> QU'EST CE QUE VISUELIUM ? </h4>
         </div>
         <div class="sous_presentation">
             <img class="img_sous_pres" src="./ressources-web/sous_presentation_img.png">
@@ -53,8 +54,115 @@
         </div>
     </div>
 
+    <div class="all_competence">
+        <div class="container">
+            <div>
+                <div>
+                    <h4 class="competence"> MES COMPÉTENCES </h4>
+                </div>
+                <div>
+                    <h5 class="competence_txt"> Compétences Techniques sur les logiciels </h5>
+                </div>
+                <p class="title_container"> Première Pro </p>
+                <div class="progressbar-wrapper">
+                    <div title="downloaded" class="progressbar premiere">85%</div>
+                </div>
+           
+                <p class="title_container"> Photoshop </p>
+                <div class="progressbar-wrapper">
+                    <div title="downloading" class="progressbar photoshop">80%</div>
+                </div>
+            </div>
+            <div class="txt_competence">
+                <p>
+                    Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                    Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                    Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                </p>
+            </div>
+        </div>
+        
+        <div>
+            <img src="./ressources-web/ecran-montage-illu.png">
+        </div>
+    </div>
+
+    <div class="main_slide">
+        <div class="slider">
+            <img src="./ressources-web/img1.png" alt="img1" class="img__slider active" />
+            <img src="./ressources-web/img2.png" alt="img2" class="img__slider" />
+            <img src="./ressources-web/img3.png" alt="img3" class="img__slider" />
+            <img src="./ressources-web/img4.png" alt="img3" class="img__slider" />
+            <img src="./ressources-web/img5.png" alt="img3" class="img__slider" />
+            <img src="./ressources-web/img6.png" alt="img3" class="img__slider" />
+            <img src="./ressources-web/img7.png" alt="img3" class="img__slider" />
+            <img src="./ressources-web/img8.png" alt="img3" class="img__slider" />
+            <div class="suivant">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+            <div class="precedent">
+                <i class="fas fa-chevron-circle-left"></i>
+            </div>
+        </div>
+
+        <div class="miniature">
+            <h4 class="title_miniature"> MES CRÉATIONS DE MINIATURES </h4>
+            <p class="txt_miniature"> 
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+            </p>
+        </div>
+    </div>
+
+    <div class="main_video">
+        <div>
+            <div class="title_explorer">
+                <h3> Explorer Les Créations Vidéos </h3>
+            </div>
+
+            <div class="list_video">
+                <div class="txt_list_video">
+                    <li class="title_li" id="1" onclick="deploiement1(this.id)"> Montage Dynamique </li>
+                    <div id="textJS1">
+                        <p> Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt </p>
+                    </div>
+                </div>
+                <div class="txt_list_video">
+                    <li class="title_li" id="2" onclick="deploiement1(this.id)"> Délais Rapide </li>
+                    <div id="textJS2">
+                        <p> Lorem Ipsum txt Lorem Ipsum </span>
+                    </div>
+                </div>
+                <div class="txt_list_video">
+                    <li class="title_li" id="3" onclick="deploiement1(this.id)"> Création de Story Telling </li>
+                    <div id="textJS3">
+                        <p> Lorem Ipsum txt Lorem Ipsum txt </p>
+                        <p> Lorem Ipsum txt Lorem Ipsum txt </p>
+                    </div>
+                </div>
+                <div class="txt_list_video">
+                    <li class="title_li" id="4" onclick="deploiement1(this.id)"> Effets Visuels </li>
+                    <div id="textJS4">
+                        <p>Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <div class="video_illu1">
+                <iframe style="border-radius:4%;" width="400" height="315" src="https://www.youtube.com/embed/I1t2emU6pe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe style="border-radius:4%;" width="250" height="430" src="https://www.youtube.com/embed/TLLYP0ULqMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video_illu2">
+                <iframe style="border-radius:2%;" width="600" height="300" src="https://www.youtube.com/embed/Fxyg_PSivsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
       
-<script src="./scroll.js"></script>
+<script src="./scroll_and_slide.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
 <script>
     var gradient = new Gradient();
