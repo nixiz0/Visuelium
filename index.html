@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./ressources-web/icon_logo.png">
     <title> Visuelium </title>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     
+    <header>
+        <div> 
+            <h1> VISUELIUM </h1>
+        </div>
+        <h3 style="opacity: 50%;"> RÉALISATION & PRODUCTION </h3>
+    </header>
+
+    <div class="trait_separation">  </div>
+
+    <div class="presentation">
+        <div>
+            <h4 id="who" class="who"> QUI SOMMES-NOUS ? </h4>
+        </div>
+        <div class="sous_presentation">
+            <img class="img_sous_pres" src="./ressources-web/sous_presentation_img.png">
+            <p>
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+                Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt Lorem Ipsum txt
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <div class="background--custom">
+            <canvas id="canvas">
+        </div>
+        <div>
+            <div class="all_cadre">
+                <div>
+                    <img class="img_cadre" src="./ressources-web/cadre1_custom_insta.png">
+                </div>
+                <div>
+                    <img class="img_cadre" src="./ressources-web/cadre2_custom_insta.png">
+                </div>
+                <div>
+                    <img class="img_cadre" src="./ressources-web/cadre3_custom_insta.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+<script src="./scroll.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+<script>
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas");
+  </script>
 </body>
 </html>
