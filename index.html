@@ -118,7 +118,7 @@
     <div class="main_video">
         <div>
             <div class="title_explorer">
-                <h3> Explorer Les Créations Vidéos </h3>
+                <h3> Explorer Mes Créations Vidéos </h3>
             </div>
 
             <div class="list_video">
@@ -161,12 +161,75 @@
         </div>
     </div>
 
+    <div class="main_contact">
+        <div class="background--custom2">
+            <canvas id="canvas2"> 
+        </div>
+        <div class="txt_form">
+            <div class="bottom_form"></div>
+            <div class="title_form">
+                <h3>Formulaire de contact</h3>
+            </div>
+            <form name="myForm" action="mail.php" onsubmit="return validateForm()" method="post">
+               <table class="form-style">
+                  <tr>
+                     <td>
+                        <label>
+                           Votre nom <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <input type="text" name="name" class="long"/>
+                        <span class="error" id="errorname"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label>
+                           Votre adresse e-mail <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <input type="email" name="email" class="long"/>
+                        <span class="error" id="erroremail"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label>
+                           Message <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <textarea name="message" class="long field-textarea"></textarea>
+                        <span class="error" id="errormsg"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>
+                        <input type="submit" value="Envoyer">      
+                        <input type="reset" value="Réinitialiser"> 
+                     </td>
+                  </tr>
+               </table>
+            </form>
+        </div>
+    </div>
+
       
 <script src="./scroll_and_slide.js"></script>
+
 <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
 <script>
     var gradient = new Gradient();
     gradient.initGradient("#canvas");
   </script>
+
+<script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+  <script>
+  var gradient = new Gradient();
+  gradient.initGradient("#canvas2");
+</script>
 </body>
 </html>

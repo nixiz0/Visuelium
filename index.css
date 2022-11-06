@@ -261,3 +261,116 @@ header {
     text-align: center;
 }
 
+/* CSS pour Div de Contact */
+.main_contact {
+    margin-top: 20em;
+    color: white;
+}
+
+    .bottom_form {
+        width: 100%;
+        height: 0.2em;
+        background-color: rgb(233, 233, 233);
+        margin-bottom: 7em;
+    }
+
+    .title_form {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .txt_form {
+        font-size: 1.5em;
+    }
+
+.background--custom2 {
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+  }
+  canvas#canvas2 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    transform: rotate(0deg) scale(2) translateY(0%);
+    --gradient-color-1: #000000; 
+    --gradient-color-2: #FF9400; 
+    --gradient-color-3: #000000;  
+    --gradient-color-4: #000000;
+    --gradient-speed: 0.000006;
+  }
+  
+  .form-style {
+    margin: 1em auto;
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  
+  .form-style label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+  }
+  
+  .form-style .required{
+    color:red;
+  }
+  .form-style input[type=submit], .form-style input[type=reset]{
+    background: #4eb5f1;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+  }
+  .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+    background: #4eb5f1;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+  }
+  .form-style .field-textarea{
+    height: 100px;
+  }
+  .form-style input[type=text], 
+  .form-style input[type=email],
+  textarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+  }
+  .form-style .long{
+    width: 100%;
+  }
+  .form-style input[type=text]:focus, 
+  .form-style input[type=email]:focus,
+  .form-style textarea:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+  }
+  .error{
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #ffae00;
+    background-color: #000000;
+  }
