@@ -13,6 +13,12 @@ header {
     padding: 3.5em;
     font-size: 1em;
     animation: header_anim 1000ms linear;
+    transition: all 1s ease;
+}
+
+header:hover {
+  transition: all 1s ease;
+  font-size: 1.1em;
 }
 
 .trait_separation {
@@ -365,13 +371,14 @@ header {
       padding: 0em;
       border: none;
       border-radius: none;
+      transition: all 0.5s linear;
     }
 
     .box_hover:hover {
-      transition-duration: 300ms;
       padding: 0.2em;
       border: 6px double #6E6C6C;
       border-radius: 31px;
+      transition: all 0.5s linear;
     }
 
 
@@ -506,6 +513,7 @@ header {
   }
 
   .flex_footer {
+    margin-top: 2em;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -524,7 +532,7 @@ header {
   
   .reglementation_foot {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 6em;
     font-size: 0.9em;
   }
 
@@ -534,6 +542,12 @@ header {
   header {
     padding: 3.5em;
     font-size: 1.6em;
+    transition: all 1s ease;
+  }
+
+  header:hover {
+    transition: all 1s ease;
+    font-size: 1.7em;
   }
 
   .presentation {
@@ -745,13 +759,14 @@ header {
       padding: 0em;
       border: none;
       border-radius: none;
+      transition: all 0.5s linear;
     }
 
     .box_hover:hover {
-      transition-duration: 300ms;
       padding: 0.2em;
       border: 6px double #6E6C6C;
       border-radius: 31px;
+      transition: all 0.5s linear;
     }
 
     .precision_tarif {  
@@ -808,7 +823,7 @@ header {
   }
   
   .form-style .long{
-    width: 80%;
+    width: 90%;
   }
 
   .error{
@@ -824,6 +839,7 @@ header {
   }
 
   .flex_footer {
+    margin-top: 2em;
     padding: 1em;
     font-size: 1.3em;
   }
@@ -838,7 +854,7 @@ header {
     }
   
   .reglementation_foot {
-    margin-top: 5em;
+    margin-top: 6em;
     font-size: 1.3em;
   }
 
@@ -850,7 +866,13 @@ header {
   header {
     padding: 3.5em;
     font-size: 2em;
+    transition: all 1s ease;
 }
+
+  header:hover {
+    transition: all 1s ease;
+    font-size: 2.2em;
+  }
 
 .trait_separation {
     width: 100%;
@@ -1102,13 +1124,14 @@ header {
       padding: 0em;
       border: none;
       border-radius: none;
+      transition: all 0.5s linear;
     }
 
     .box_hover:hover {
-      transition-duration: 300ms;
       padding: 0.2em;
       border: 6px double #6E6C6C;
       border-radius: 31px;
+      transition: all 0.5s linear;
     }
 
     .precision_tarif {  
@@ -1175,6 +1198,7 @@ header {
   }
 
   .flex_footer {
+    margin-top: 2em;
     padding: 1em;
     font-size: 1.6em;
   }
@@ -1189,7 +1213,7 @@ header {
     }
   
   .reglementation_foot {
-    margin-top: 3em;
+    margin-top: 8em;
     font-size: 1.6em;
   }
 
