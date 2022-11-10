@@ -441,7 +441,36 @@ header {
     background-color: #000000;
   }
 
+  footer {
+    margin-top: 2em;
+    padding: 0.8em;
+    background-color: #000000;
+    color:rgb(232, 232, 232);
+  }
+
+  .flex_footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+  }
+
+    .rs_img_foot {
+      width: auto;
+      height: 1.7em;
+    }
+
+    .sous_img_foot {
+      margin-top: 0.5em;
+    }
   
+  .reglementation_foot {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 0.9em;
+  }
+
 
 @media (min-width:650px) {
 
@@ -682,6 +711,30 @@ header {
     font-size: 0.8em;
     color: #ffae00;
     background-color: #000000;
+  }
+
+  footer {
+    margin-top: 5em;
+    padding: 0.8em;
+  }
+
+  .flex_footer {
+    padding: 1em;
+    font-size: 1.3em;
+  }
+
+    .rs_img_foot {
+      width: auto;
+      height: 1.9em;
+    }
+
+    .sous_img_foot {
+      margin-top: 0.3em;
+    }
+  
+  .reglementation_foot {
+    margin-top: 5em;
+    font-size: 1.3em;
   }
 
 }
@@ -961,6 +1014,30 @@ header {
   .error{
     font-weight: 600;
     font-size: 0.9em;
+  }
+
+  footer {
+    margin-top: 7em;
+    padding: 1em;
+  }
+
+  .flex_footer {
+    padding: 1em;
+    font-size: 1.6em;
+  }
+
+    .rs_img_foot {
+      width: auto;
+      height: 2em;
+    }
+
+    .sous_img_foot {
+      margin-top: 0.3em;
+    }
+  
+  .reglementation_foot {
+    margin-top: 3em;
+    font-size: 1.6em;
   }
 
 }
