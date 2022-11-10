@@ -12,11 +12,12 @@ header {
     text-align: center;
     padding: 3.5em;
     font-size: 1em;
+    animation: header_anim 1000ms linear;
 }
 
 .trait_separation {
     width: 100%;
-    height: 0.4em;
+    height: 0.2em;
     background-color: black;
 }
 
@@ -25,6 +26,8 @@ header {
     margin-bottom: 4em;
     text-align: center;
     font-size: 1.3em;
+    opacity: 1;
+    animation: pres 1300ms linear;
 }
 
         .who {
@@ -295,7 +298,7 @@ header {
   width: 100%;
   height: 0.1em;
   background-color: black;
-  box-shadow: 0px 0px 9px 3px rgb(0, 0, 0, 0.20);
+  animation: colors_separation 3500ms infinite ease-in;
 }
 
 .separation_video2 {
@@ -303,6 +306,7 @@ header {
   width: 100%;
   height: 0.1em;
   background-color: black;
+  animation: colors_separation 3500ms infinite ease;
 }
 
 .qui_suis_je {
@@ -325,6 +329,59 @@ header {
     font-size: 1.3em;
     padding: 0.5em;
   }
+
+  .tarif_all {
+    margin-top: 2em;
+    padding: 1em;
+  }
+
+    .photo_clap {
+      width: auto;
+      height: 9em;
+    }
+
+    .tarif_title {
+      font-size: 1.6em;
+    }
+
+    .tarif_h5 {
+      text-decoration: underline;
+      font-size: 1.3em;
+    }
+
+    .sous_tarif {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1.1em;
+    }
+
+    .sous_tarif_autres {
+      display: flex;
+      justify-content: center;
+    }
+
+    .box_hover {
+      padding: 0em;
+      border: none;
+      border-radius: none;
+    }
+
+    .box_hover:hover {
+      transition-duration: 300ms;
+      padding: 0.2em;
+      border: 6px double #6E6C6C;
+      border-radius: 31px;
+    }
+
+
+    .precision_tarif {
+      border-top: 2px solid #000000;
+      border-bottom: 2px solid #000000;
+      margin-top: 3em;
+      font-size: 1em;
+      font-weight: bold;
+    }
 
 /* CSS pour Div de Contact */
 .main_contact {
@@ -654,6 +711,54 @@ header {
       padding: 1em;
     }
 
+    .tarif_all {
+    margin-top: 4em;
+    }
+
+    .photo_clap {
+      width: auto;
+      height: 10em;
+    }
+
+    .tarif_title {
+      font-size: 2em;
+    }
+
+    .tarif_h5 {
+      font-size: 1.3em;
+    }
+
+    .sous_tarif {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1.3em;
+    }
+
+    .sous_tarif_autres {
+      font-size: 1.3em;
+      display: flex;
+      justify-content: center;
+    }
+
+    .box_hover {
+      padding: 0em;
+      border: none;
+      border-radius: none;
+    }
+
+    .box_hover:hover {
+      transition-duration: 300ms;
+      padding: 0.2em;
+      border: 6px double #6E6C6C;
+      border-radius: 31px;
+    }
+
+    .precision_tarif {  
+      margin-top: 5em;
+      font-size: 1.3em;
+    }
+
   .main_contact {
     margin-top: 15em;
     color: white;
@@ -749,7 +854,7 @@ header {
 
 .trait_separation {
     width: 100%;
-    height: 0.4em;
+    height: 0.2em;
 }
 
 .presentation {
@@ -963,6 +1068,54 @@ header {
       padding: 1em;
     }
 
+    .tarif_all {
+      margin-top: 5em;
+    }
+
+    .photo_clap {
+      width: auto;
+      height: 11em;
+    }
+
+    .tarif_title {
+      font-size: 2.4em;
+    }
+
+    .tarif_h5 {
+      font-size: 1.4em;
+    }
+
+    .sous_tarif {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 1.4em;
+    }
+
+    .sous_tarif_autres {
+      font-size: 1.4em;
+      display: flex;
+      justify-content: center;
+    }
+
+    .box_hover {
+      padding: 0em;
+      border: none;
+      border-radius: none;
+    }
+
+    .box_hover:hover {
+      transition-duration: 300ms;
+      padding: 0.2em;
+      border: 6px double #6E6C6C;
+      border-radius: 31px;
+    }
+
+    .precision_tarif {  
+      margin-top: 5em;
+      font-size: 1.4em;
+    }
+
 /* CSS pour Div de Contact */
 .main_contact {
     margin-top: 20em;
@@ -1040,4 +1193,42 @@ header {
     font-size: 1.6em;
   }
 
+}
+
+
+
+@keyframes colors_separation {
+  
+  75% {
+    background-color: #444444;
+  }
+
+  50% {
+    background-color: #777777;
+  }
+
+  25% {
+    background-color: rgb(233, 233, 233);
+  }
+
+}
+
+@keyframes header_anim {
+  0% {
+    font-size: 0em;
+  }
+  50% {
+    font-size: 0.5em;
+  }
+}
+
+@keyframes pres {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-100px);
+    opacity: 0.5;
+  }
 }
